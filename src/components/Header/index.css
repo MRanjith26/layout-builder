@@ -1,0 +1,14 @@
+/* Write your CSS here */
+.header-card {
+  background-color: #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.header-title {
+  font-family: 'Roboto';
+  font-size: 28px;
+  color: #475569;
+  font-weight: 900;
+}

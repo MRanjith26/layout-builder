@@ -1,0 +1,39 @@
+/* Write your CSS here */
+.top-container {
+  background-color: #475569;
+  padding-top: 1px;
+  height: 200px;
+  flex-grow: 1;
+}
+.controller-card {
+  margin-left: 35px;
+  margin-top: 10px;
+  color: #ffffff;
+}
+.top-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+}
+.option-container {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+.option-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 7px;
+  font-family: 'Roboto';
+}
+.check-box {
+  height: 15px;
+  width: 15px;
+}
+.label-text {
+  font-size: 15px;
+}

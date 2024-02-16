@@ -1,0 +1,122 @@
+/* Write your CSS here */
+.body-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px 0px;
+  height: 50vh;
+}
+
+@media screen and (max-width: 767px) {
+  .body-content {
+    flex-direction: column;
+  }
+}
+.left-nav-card {
+  padding: 20px;
+  width: 24%;
+  background-color: #e2e8f0;
+}
+@media screen and (max-width: 767px) {
+  .left-nav-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.nav-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+
+.right-nav-card {
+  padding: 20px;
+  width: 24%;
+  background-color: #e2e8f0;
+}
+@media screen and (max-width: 767px) {
+  .right-nav-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.nav-menu {
+  list-style: none;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 767px) {
+  .nav-menu {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+.nav-item {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+  margin: 5px 5px;
+  font-weight: 500;
+}
+.content-card {
+  width: 50%;
+  margin: 0px 2px;
+  padding: 15px;
+  background-color: #f1f5f9;
+  flex-grow: 1;
+}
+@media screen and (max-width: 767px) {
+  .content-card {
+    width: 100%;
+    margin: 2px 0px;
+    padding: 15px;
+  }
+}
+.content-title {
+  font-family: 'Roboto';
+  font-size: 18px;
+  color: #475569;
+}
+.content-para {
+  font-family: 'Roboto';
+  font-size: 15px;
+  color: #475569;
+}
+.ad-card {
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+  .ad-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
+.ad-item {
+  height: 110px;
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+  font-size: 15px;
+  color: #475569;
+  font-weight: 500;
+  border: 2px solid #64748b;
+}
